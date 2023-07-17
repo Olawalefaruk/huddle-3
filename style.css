@@ -1,0 +1,422 @@
+/*******************************
+  css styles for desktop view
+********************************/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+.background {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+
+.combine {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+}
+
+header {
+  padding: 20px;
+}
+
+.header-first-div {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-logo {
+  height: 10px;
+}
+
+.first-button{
+  height: 12px;
+  width: 35px;
+  background-color: white;
+  color: rgb(255, 6, 234);
+  border: 1px solid rgb(255, 6, 234);
+  border-radius: 10px;
+  font-size: 0.4rem;
+  text-transform: capitalize;
+  
+}
+
+.header-combine {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.header-text-div {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+h2 {
+  font-size: 1rem;
+  text-align: center;
+  text-transform: capitalize;
+  padding-bottom: 8px;
+  font-weight: 800;
+
+}
+
+header p {
+  font-size: 0.5rem;
+  text-align: center;
+  padding-bottom: 8px;
+  max-width: 180px;
+  line-height: 0.7rem;
+
+}
+.second-button {
+  height: 15px;
+  width: 80px;
+  border-radius: 20px;
+  border-style: solid;
+  border: none;
+  font-size: 0.5rem;
+  text-transform: capitalize;
+  background-color: rgb(255, 6, 234);
+  color: white;
+  box-shadow: 3px 4px 10px rgba(0, 0, 0, 0.2);
+  margin-bottom: 10px;
+}
+
+.mockup {
+  width: 250px;
+  margin-top: 10px;
+}
+
+article {
+  padding: 20px;
+}
+
+.article-combine {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+
+.article-first-div {
+  
+}
+
+.article-icon {
+  height: 10px;
+}
+
+h1 {
+  font-size: 1.3rem;
+}
+
+.article-p {
+  font-size: 0.4rem;
+  color: gray;
+  text-transform: capitalize;
+}
+
+section {
+  padding: 20px;
+}
+
+.section-combine-div {
+  display: flex;
+  flex-direction: column;
+  margin: 30px 0;
+}
+
+.section-div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+h4 {
+  text-transform: capitalize;
+  font-size: 0.7rem;
+  padding-bottom: 8px;
+  font-weight: 800;
+}
+
+.section-p {
+  font-size: 0.4rem;
+  max-width: 140px;
+}
+
+.illustration {
+  width: 130px;
+}
+
+.aside-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+h2 {
+  text-align: center;
+  font-size: 0.8rem;
+  padding-top: 10px;
+}
+
+.aside-button {
+  height: 15px;
+  width: 80px;
+  border-radius: 20px;
+  border-style: solid;
+  border: none;
+  font-size: 0.4rem;
+  text-transform: capitalize;
+  background-color: rgb(255, 6, 234);
+  color: white;
+  box-shadow: 3px 4px 10px rgba(0, 0, 0, 0.2);
+  margin-bottom: 10px;
+}
+
+.footer-curve {
+  height: 100px;
+  background-image: url(./bg-footer-top-desktop.svg);
+  background-repeat: no-repeat;
+  background-size: 100vw;
+  background-position: bottom;
+}
+
+footer {
+  background-color: rgb(0, 39, 44);
+}
+
+.footer-combine-div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  
+}
+
+.footer-first-div {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+
+}
+
+.footer-logo {
+  height: 15px;
+}
+
+.footer-text-combine {
+  
+  padding: 5px;
+}
+
+.footer-mini-div {
+  display: flex;
+}
+
+.footer-p {
+  font-size: 0.4rem;
+  max-width: 110px;
+  padding-bottom: 5px;
+  color: white;
+}
+
+.footer-icons {
+  height: 6px;
+  margin-right: 5px;
+}
+
+.footer-second-div {
+  padding: 5px;
+}
+
+h5 {
+  color: white;
+  text-transform: uppercase;
+  font-size: 0.5rem;
+  padding-bottom: 5px;
+}
+
+.form-combine {
+ display: flex; 
+}
+
+footer input {
+  width: 85px;
+  margin-top: 5px;
+  height: 15px;
+  margin-right: 5px;
+}
+
+.footer-button {
+  font-size: 0.4rem;
+  text-transform: capitalize;
+  background-color: rgb(255, 6, 234);
+  color: white;
+  border: none;
+  height: 15px;
+  width: 40px;
+  border-radius: 2px;
+  margin-top: 5px;
+}
+
+.socials-div {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  padding: 20px;
+}
+
+.icons {
+  height: 10px;
+  margin-right: 5px;
+}
+
+
+/*******************************
+  css styles for mobile view
+********************************/
+
+@media (orientation: portrait) {
+
+  h2 {
+    max-width: 120px;
+    line-height: 1.2rem;
+  }
+  
+  header p {
+    max-width: 130px;
+  }
+
+  .mockup {
+    width: 150px;
+  }
+  
+  article {
+    padding: 20px;
+  }
+  
+  .article-combine {
+    flex-direction: column;
+    justify-content: center;
+   
+  }
+  
+  .article-first-div {
+    margin-bottom: 30px;
+  }
+  
+  h1 {
+    font-size: 1.7rem;
+    font-weight: 800;
+    padding-bottom: 5px;
+  }
+  
+  .article-p {
+    font-size: 0.6rem;
+    text-align: center;
+  }
+  
+  .section-div {
+    flex-direction: column;
+    justify-content: center;
+    flex-flow: column-reverse;
+  }
+
+  
+  h4 {
+    text-transform: capitalize;
+    font-size: 0.7rem;
+    padding: 8px 0;
+    text-align: center;
+  }
+  
+  .section-p {
+    font-size: 0.5rem;
+    max-width: 110px;
+    text-align: center;
+    line-height: 0.7rem;
+  }
+  
+  .illustration {
+    width: 130px;
+    margin-top: 10px;
+  }
+
+  .footer-curve {
+    background-image: url(./bg-footer-top-mobile.svg);
+  }
+  
+  .footer-combine-div {
+    justify-content: center;
+    flex-direction: column;
+    
+    flex-flow: column-reverse;
+  }
+  
+  .footer-first-div {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    
+  }
+  
+  .footer-logo {
+    margin-top: 30px;
+  }
+  
+  .footer-p {
+    padding-bottom: 10px;
+    line-height: 0.8rem;
+    font-size: 0.5rem;
+    max-width: 120px;
+  }
+  
+  h5 {
+    font-size: 0.6rem;
+  }
+  
+  .form-combine {
+   display: block; 
+  }
+  
+  footer input {
+    width: 120px;
+    height: 20px;
+    margin-right: 0px;
+  }
+  
+  .footer-button {
+    font-size: 0.6rem;
+    height: 20px;
+    width: 70px;
+    margin-top: 8px;
+  }
+
+  .footer-button-div {
+    display: flex;
+    justify-content: end;
+  }
+  
+  .socials-div {
+    justify-content: center;
+  }
+
+}
